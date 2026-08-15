@@ -32,12 +32,14 @@ https://<owner>.github.io/<repository>/ios/latest/install.html
 在执行脚本后，可选择手动添加Secrets/Variables  
 也可以使用自动生成的依赖gh的上传脚本
 
+关于更新链接，默认使用 `--ota-base-url 'https://<owner>.github.io/<repo>'`  
+也可以手动指定域名
+
 ```bash
 ./Resources/Scripts/generate.github.action.inputs.sh \
   --p12 /path/to/certificate.p12 \
   --p12-password 'p12-password' \
-  --mobileprovision /path/to/profile.mobileprovision \
-  --ota-base-url 'https://<owner>.github.io/<repo>'
+  --mobileprovision /path/to/profile.mobileprovision
 ```
 
 然后：
