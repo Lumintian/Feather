@@ -38,6 +38,10 @@ Visit [releases](https://github.com/claration/Feather/releases) and get the late
 
 Visit the [HOW IT WORKS](./HOW_IT_WORKS.md) page.
 
+## Self-hosted signed builds
+
+Forks can automatically sign upstream `main` with their own Apple certificate and publish a stable OTA install page. See [FORK_AUTOBUILD_GUIDE.md](./Resources/Document/FORK_AUTOBUILD_GUIDE.md).
+
 ## Sponsors
 
 | Thanks to all my [sponsors](https://github.com/sponsors/claration)!! |
