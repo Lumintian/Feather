@@ -29,6 +29,9 @@ https://<owner>.github.io/<repository>/ios/latest/install.html
 
 ### 推荐：本地脚本生成后上传
 
+在执行脚本后，可选择手动添加Secrets/Variables  
+也可以使用自动生成的依赖gh的上传脚本
+
 ```bash
 ./Resources/Scripts/generate.github.action.inputs.sh \
   --p12 /path/to/certificate.p12 \
